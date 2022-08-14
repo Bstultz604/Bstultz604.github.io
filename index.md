@@ -10,7 +10,7 @@ This ePortfolio showcases the computer science skills I have learned throughout 
 4. Databases
 5. Algorithims and Datastructures
 
-### 1.) Professional Self-Assesment
+# 1.) Professional Self-Assesment
 
    My journey in the field of computer science began in the spring of 2019. Throughout the last 4 years I have explored the many applications and practices of computer science. My study has revealed the importance of teamwork, professionalism, design, fundamentals, and security as the key pillars to success in this field. My work throughout the computer science program has sharpened my awareness of these crucial skills and has enabled me to hone their quality in relation to the works I produce as a software engineer. The obtainment of this foundational knowledge and skill is my first step into deeper and more fulfilling engagement with the professional field of computer science. 
   
@@ -18,7 +18,7 @@ This ePortfolio showcases the computer science skills I have learned throughout 
   The cumulative skills and ability I have gained over the years have enabled me to produce a project to showcase my understanding of the core elements of computer science and my competencies in them. My project took a simple web application I had built earlier in my studies and redesigned/enhanced it. The enhancements I made to the project were made to highlight my competencies in the realms of software design and engineering, algorithms and data structures, and Databases. Software design and engineering are highlighted in my refactoring the design of the web app. My competency in data structures and algorithms are reveled in my use of algorithms to sort data inside the application. Database competency is seen in my design implementation of an external database for use in the app. These are all wrapped together into a single full stack application to highlight my skills and ability as a computer scientist.
 
 
-### 3.) Software Design & Engineering
+# 3.) Software Design & Engineering
 
   The artifact I chose to make enhancements too is a simple express application. The program simply renders a static HTML web page. The goal of my enhancements is to refactor this web pages front end to utilize angular. These enchantments will showcase my ability to dissect the design elements of the web site while also being able to redesign these elements as modular components. These will add additional functionality to the front-end site and make the web site more modular, reusable, and dynamic. 
   
@@ -40,7 +40,8 @@ This ePortfolio showcases the computer science skills I have learned throughout 
   
   Competent proficiency in my ability to use well-founded and innovative techniques, skills, and tools in computing practices is best highlighted in the design document and the implementation of that design. The design document shows my attention placed on redesigning the system to be more modular and dynamic. My implementation of this design document also used the perspective of the user a key guide for constructing the key elements. All while ensuring my code was well commented to support future development. When paired together my competency can be seen in my attention to the best practices of creating modular and user-friendly code.
   
-### 4.) Databases  
+
+# 4.) Databases  
   
   The artifact in question that was enhanced was a simple express application that would render static html code. The original artifact had no database connected nor any dynamic ways of interacting with data. All aspects of the rendering were hard coded. The lack of a database was my key focus in making enhancements. The goal of my enhancement was to make the rendering of the site more dynamic by utilizing an external database to deliver data to be displayed.
   
@@ -58,7 +59,7 @@ This ePortfolio showcases the computer science skills I have learned throughout 
   
   In summery I utilized mongoDB atlas to fulfill my need for a way to store data in a cloud-based environment so that it can be accessed from anywhere. I developed a proper backend to model this data and make calls to the database. I then designed middleware so that my backend and frontend can communicate to properly service the requests necessary to render the data as needed. These effectively showcase my skill and ability to both analyze the needs of the system in question but also how to implement them effectively to produce results for the project.
   
-### 5.) Algorithims and Datastructures
+# 5.) Algorithims and Datastructures
 
  The artifact that is to be enhanced began as a simple express application that rendered HTML in a static manner; loading data that was hardcoded to be loaded. Over the past few weeks have added more dynamic features to this original artifact. Converting its front-end rendering to use angular, and to add an external database to help the application render dynamically. This enhanced artifact is where my new changes will be applied.
 
