@@ -1,9 +1,5 @@
 ## Brandon's ePortfolio
 
-You can use the [editor on GitHub](https://github.com/Bstultz604/Bstultz604.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. 
-
 ### Introduction
 This ePortfolio showcases the computer science skills I have learned throughout my time as an undergraduate at Southern New Hampshrie University. Its contents include a narrated code review, design and justification narratives, a professional self-assesment, and enhancements to previous work focused on key competencies related to software design & engineering, algorithims & datastructures, and databases. These enchaments are improvments made to old work done ealier in my studies here at Southern New Hamsphire University. 
 
@@ -54,6 +50,8 @@ This ePortfolio showcases the computer science skills I have learned throughout 
   
   With my database type and provider decided I now needed to develop the crucial enhancements. The first of these enhancements was the creation of the backend to connect to the newly created mongoDB database. I used mongoose libraries to accomplish this task. I also added error detection to this initial connection to detect when and why a connection issue has occurred. After the initial connection to the database, I needed a way to access this data. I first needed to model the type of data I was to collect. To accomplish this, I used mongoose schemas to model the structure of the data I was expecting to receive from calls to the database. This enabled the application to generate these data calls as distinct JSON objects that will make future data manipulation easier. After modeling my collections, I needed to generate the appropriate code to request data from the database. These were designed as methods that asynchronously communicated with the connected database.
   
+  ![Image](database_image.png)
+  
   Finally with my database connected I needed a way to retrieve the data in such a way to make it usable for the purposes of my application. This is where my middleware was required. Previously I had designed my methods to be associated with specific API end points. Such as ‘/trips’ which would have the different methods associated with it depending on the http protocol that was used like, get or post. The middleware I designed would simply make a http request from the associated host to the connected database, it would then return a response, typically in JSON format which I would then use in my angular files to render.
   
   A simple example would be the user would traverse to the news page of the application. Upon routing to the new page, the middleware would make a get request to the database. The backend would recognize the extension of the API router and make the ‘get’ data request to the server using the asynchronous methods defined earlier. The database would then send the response, which would be converted to JSON before being passed back to the middleware and added to a simple data structure to hold the newly arrived data. This data structure would then be used to iterate over to display the whole list or simply called if a single item was returned. In this manner I can populate listing components from my angular front end with specific data from my database, creating a dynamic application. 
@@ -74,32 +72,3 @@ In this enchantment I utilized algorithms to sort retrieved data from the databa
 
 The skills of this artifact enhancement demonstrate a key proficiency. The proficiency demonstrated is my ability to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices. This proficiency to design computing solutions to a given problem using algorithmic principles is clearly seen in the enhancement itself. I saw that the data needed to be sorted in a specific manner before being presented to the user. Thus, I evaluated the issue and designed a solution using algorithmic principles to resolve said issue with a merge sort algorithm.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bstultz604/Bstultz604.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
